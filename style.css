@@ -1,5 +1,4 @@
 *{text-decoration: none;
-color: #222;
 }
 html, 
 body{
@@ -142,7 +141,7 @@ img.formLogoMic {
   font-size: 14px;
   width: 125px;
   height: 5px;
-  padding: 25px;
+  padding: 22px;
   border: none; 
 }
 
@@ -182,9 +181,4 @@ footer{
   display: flex;
   justify-content: space-between;
   flex-shrink: 0;
-<<<<<<< HEAD
 }
-=======
-  flex-flow: nowrap;
-}
->>>>>>> 29acb43502dda3c9d37f798c04e21fc210d7fa5d
