@@ -189,11 +189,3 @@ footer ul{
   flex-shrink: 0;
   flex-flow: nowrap;
 }
-.center-Nav{
-  display: inline-block;
-  margin: 0 auto;
-  text-align: center;
-  width: 65%;
-  text-decoration: none;
-  color: #222;
-}
