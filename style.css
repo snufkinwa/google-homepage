@@ -1,0 +1,190 @@
+*{text-decoration: none;
+color: #222;
+}
+html, 
+body{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #222;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Navigation */
+header{ 
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+a.left-Nav:first-of-type{
+  margin-left: 10px;
+  color: #222;
+}
+a.left-Nav {
+  display: inline-block;
+  padding: 5px;
+  color: #222;
+}
+
+.right-Nav{
+  align-items: center;
+  padding: 5px;
+  color: #222;
+}
+.button{
+    width: 75px;
+    height: 30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+  background-color: #4285f4;
+}
+
+/* Main */
+main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  padding: 10px;
+}
+
+.searchBox {
+  margin-top: 30px;
+  position: relative;
+}
+.mainForm {
+  width: 550px;
+}
+.formGroup {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  width: 100%;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 5px 8px 0 16px;
+}
+.formGroup:hover {
+  box-shadow: 0 1px 6px 0  rgb(225, 225, 230);
+  border-color: rgb(186, 188, 190);
+}
+.formLogoSearch {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+  margin-right: 7px;
+}
+img.animated-gif{
+  height: auto;
+  width: 24px;
+  fill: gray;
+}
+.formInput {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+}
+.formInput input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  margin-top: -3px;
+  color: #222;
+}
+.formInput input:focus {
+  outline: none;
+}
+.formLogoMic {
+  height: 100%;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+  margin-right: 7px;
+}
+img.formLogoMic {
+  height: auto;
+  width: 18px;
+}
+.searchBoxButton{
+  padding: 10px;
+  color: #222;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+.flipBox {
+  align-items: center;
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#222;
+  font-size: 14px;
+  width: 125px;
+  height: 5px;
+  padding: 10px;
+  border: none; 
+}
+
+.flipBoxInner {
+  position: relative;
+  width: 100%;
+  height: 0%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipBox:hover .flipBoxInner {
+  transform: rotateX(180deg);
+}
+
+.flipBoxFront, .flipBoxBack {
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipBoxFront {
+  color: 222;
+}
+
+.flipBoxBack {
+  color: 222;
+  transform: rotateX(180deg);
+}
+
+/* Footer */
+footer{
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+<<<<<<< HEAD
+}
+=======
+  flex-flow: nowrap;
+}
+>>>>>>> 29acb43502dda3c9d37f798c04e21fc210d7fa5d
