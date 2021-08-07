@@ -98,9 +98,10 @@ img.animated-gif{
   fill: gray;
 }
 .formInput {
-  height: 75%%;
+  height: 100%%;
   width: 100%;
-  flex: 1;
+  justify-content:center;
+  flex: 2;
 }
 .formInput input {
   border: none;
