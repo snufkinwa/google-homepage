@@ -100,7 +100,6 @@ img.animated-gif{
 .formInput {
   height: 100%%;
   width: 100%;
-  justify-content:center;
   flex: 2;
 }
 .formInput input {
@@ -110,6 +109,7 @@ img.animated-gif{
   font-size: 16px;
   margin-top: -3px;
   color: #222;
+  background-color: transparent;
 }
 .formInput input:focus {
   outline: none;
