@@ -1,4 +1,9 @@
-CREDIT
+
+**PROJECT:** Google Homepage
+
+**BUILD STATUS:** Incomplete, need to align the header, footer and flipping button. 
+
+**CREDIT**
 [Animated magnified class](https://icons8.com/icon/set/popular/pastel-glyph)
 
 <h1 align="center">Hi 👋, I'm Janay aka JLpng</h1>
