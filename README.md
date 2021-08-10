@@ -1,7 +1,7 @@
 
 **PROJECT:** Google Homepage
 
-**BUILD STATUS:** Incomplete, need to align the header, footer and flipping button. 
+**BUILD STATUS:** Incomplete, need to align the flipping button. 
 
 **CREDIT**
 [Animated magnified class](https://icons8.com/icon/set/popular/pastel-glyph)
