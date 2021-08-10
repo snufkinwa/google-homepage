@@ -34,6 +34,8 @@ a.left-Nav {
 }
 
 .right-Nav{
+  justify-content: center;
+  display: flex;
   align-items: center;
   padding: 5px;
   color: #222;
