@@ -1,5 +1,5 @@
 
-<h1>**PROJECT:** Google Homepage</h1>
+<h1>PROJECT: Google Homepage</h1>
 
 **BUILD STATUS:** Incomplete, need to change flipping button to vertical scrolling button. Align buttons. 
 
